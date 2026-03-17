@@ -7,7 +7,7 @@ function App() {
     return(
       <div id="parent">
         <Landing/>
-        
+        <nav/>
       </div>
     );
 
