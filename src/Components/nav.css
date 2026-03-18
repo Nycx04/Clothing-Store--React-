@@ -1,0 +1,9 @@
+.nav {
+  display:flex;
+  height:70px;
+  justify-content: space-between;
+  font-size: 20px;
+  cursor: pointer;
+  padding:10px;
+  cursor:normal;
+}
