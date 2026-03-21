@@ -7,14 +7,13 @@ function LoginForm(){
         <div id="Login-Box-Parent">
             <div id="Login-Box">
                     <h2>
-                        Login/Signup
+                        Welcome to Clothier<br/>Create an account
                     </h2>
                     <form>
-                        <input type="textbox" placeholder="Email"/><br/><br/>
-                        <input type="Password" placeholder="Password"/><br/><br/>
-                        <input type="button" value="Submit"/><br/><br/>
+                        <input type="text" placeholder="Email"/>
+                        <input type="password" placeholder="Password"/>
+                        <input type="button" value="Submit"/>
                     </form>
-                
             </div>
             </div>
         </>

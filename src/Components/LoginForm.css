@@ -7,19 +7,20 @@
     height: 300px;
     padding:10px;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.336);
+    background-color:rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    
 }
 
 #Login-Box-Parent{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap:12px;
 }
 
 form input{
-    font-size: 15px;
+    font-size: 20px;
     padding:5px;
     border-radius: 10px;
     border:none;
@@ -27,4 +28,18 @@ form input{
 
 form input[type="submit"]{
     font-size:20px;
+}
+
+#Login-Box h2{
+    user-select: none;
+    cursor:normal;
+    pointer-events: none;
+}
+
+#Login-Box form{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    width: auto;
+    align-items: center;
 }
