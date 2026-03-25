@@ -1,5 +1,9 @@
-.bg{
-    Display:flex;
-    height:100px;
-    width:100px;
+#Trending{
+    background-color:grey;
+    margin:5px;
+    padding:10px;
+}
+
+#Trending h1{
+    margin:0;
 }

@@ -7,7 +7,6 @@ function App() {
 
     return(
       <div id="parent">
-        
         <Home/>
       </div>
     );
