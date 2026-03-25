@@ -2,8 +2,10 @@ import './nav.css'
 
 function Nav() {
     return(
-    <div>
-    
+    <div id="black-tile">
+        <h1>Clothier</h1>
+        <input type="search"></input>
+        <a href="#Discover">Discover</a>
     </div>
     );
 }
