@@ -2,8 +2,9 @@
   display:flex;
   flex-direction:row;
   justify-content: space-between;
+  align-items: center;
   width:100%;
-  height:200px;
+  height:100px;
   background-color: black;
   padding:20px;
   box-sizing: border-box;
@@ -12,16 +13,29 @@
 #black-tile h1{
   color:white;
   margin:0;
+  user-select: none;
 }
 
 #black-tile a{
   color:white;
   margin:0;
+  text-decoration: none;
+  font-size:20px;
 }
 
 #black-tile input[type="search"]{
   height:40px;
   width:400px;
   border-radius: 15px;  
-  border:none;
+  border:none;    
+}
+
+#black-tile a[href="#Profile"]{
+  color:white;
+  margin:0;
+  text-decoration: none;
+  font-size:20px;
+  border-radius: 50px;
+  border:solid grey 2px; 
+  overflow: hidden;
 }
