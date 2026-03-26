@@ -8,7 +8,8 @@ function Nav() {
         <input type="search" placeholder='Search'></input>
         <a href="#Home">Home</a>
         <a href="#Discover">Discover</a>
-        <a href="#Cart">🛒</a>
+        <a href="#Cart">Cart🛒</a>
+        <a href="#Messages">Messages</a>
         <a href="#Profile"><img src={Icon}></img></a>
     </div>
     );
