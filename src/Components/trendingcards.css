@@ -1,13 +1,13 @@
-#card1{
+#cards{
     border:solid 2px black;
     border-radius:10px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height:500px;
     width:600px;
     padding:10px;
 }
 
-#card1 img{
+#card-img{
     border:white 2px solid;
     width:auto;
     height:300px;
