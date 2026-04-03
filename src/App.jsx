@@ -2,6 +2,7 @@ import './App.css';
 import Landing from './Pages/Landing.jsx';
 import './Components/nav.css'
 import Home from './Pages/Home.jsx';
+import Main from './Components/main.jsx';
 
 function App() {
 
