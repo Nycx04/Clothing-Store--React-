@@ -25,7 +25,9 @@ function Main(){
         }];
         return(
         <div id="Main">
-        
+        <div id="display">
+            
+        </div>
         </div>
     );
 }
