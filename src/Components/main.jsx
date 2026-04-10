@@ -32,12 +32,20 @@ function Main(){
     ]);
 
         return(
-        <div id="Main">
-        <div id="display">
-            
+<div className="shop">
+    {ItemList.map((item) => (
+        <div className="card" key={item.id}>
+        <img src={item.img} />
+
+        <h2>{item.name}</h2>
+        <p>{item.desc}</p>
+        <h3>₱{item.price}</h3>
+
+        <button>Add to Cart</button>
         </div>
-        </div>
-    );
+    ))}
+    </div>
+);
 }
 
 export default Main;
