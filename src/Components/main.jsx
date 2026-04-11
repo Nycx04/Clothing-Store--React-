@@ -38,8 +38,7 @@ function Main(){
         <img src={item.img} />
 
         <h2>{item.name}</h2>
-        <p>{item.desc}</p>
-        <h3>₱{item.price}</h3>
+        <p>{item.Desc}</p>
 
         <button>Add to Cart</button>
         </div>
