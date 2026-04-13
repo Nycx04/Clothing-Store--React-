@@ -1,5 +1,10 @@
 import './main.css';
 import { useState } from 'react';
+import Img1 from '../assets/premium_photo-1729788891863-0d9b6f2b453b.avif';
+import Img2 from '../assets/istockphoto-2206793808-612x612.webp';
+import Img3 from '../assets/photo-1620799140408-edc6dcb6d633.avif';
+import Img4 from '../assets/photo-1620799139652-715e4d5b232d.avif';
+import Img5 from '../assets/photo-1620799140188-3b2a02fd9a77.avif';
 
 function Main(){
     const [ItemList, setItemlist] = useState([
@@ -35,9 +40,10 @@ function Main(){
 <div className="shop">
     {ItemList.map((item) => (
         <div className="card" key={item.id}>
+        <div className="img" key={item.id}> 
         <img src={item.img} />
-
-        <h2>{item.name}</h2>
+        </div>
+        <h2>{item.title}</h2>
         <p>{item.Desc}</p>
 
         <button>Add to Cart</button>
