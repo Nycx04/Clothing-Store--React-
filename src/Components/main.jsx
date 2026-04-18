@@ -5,6 +5,8 @@ import Img2 from '../assets/istockphoto-2206793808-612x612.webp';
 import Img3 from '../assets/photo-1620799140408-edc6dcb6d633.avif';
 import Img4 from '../assets/photo-1620799139652-715e4d5b232d.avif';
 import Img5 from '../assets/photo-1620799140188-3b2a02fd9a77.avif';
+import Img6 from '../assets/premium_photo-1727942419322-0f09fd3b31e9.avif';
+import Img7 from '../assets/photo-1585892478508-130c50eb7a69.avif';
 
 function Main(){
     const [ItemList, setItemlist] = useState([
@@ -33,11 +35,22 @@ function Main(){
             img:Img5,
             title:"Hoddie",
             Desc:"Hoodie ni kevs"
+        },{
+            id:6,
+            img:Img6,
+            title:"Sleeveless",
+            Desc:"lorem ipsum"
+        },{
+            id:7,
+            img:Img7,
+            title:"Compression Shirt",
+            Desc:"lorem ipsum"
         }
     ]);
 
         return(
 <div className="shop">
+    <div className="cards">
     {ItemList.map((item) => (
         <div className="card" key={item.id}>
         <div className="img" key={item.id}> 
@@ -49,6 +62,10 @@ function Main(){
         <button>Add to Cart</button>
         </div>
     ))}
+    </div>
+    <div align="center">
+        <a href="#">See More</a>
+    </div>
     </div>
 );
 }
